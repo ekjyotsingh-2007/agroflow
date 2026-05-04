@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AgroFlow</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=DM+Mono&family=DM+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">🌱 AgroFlow</div>
+  <div class="tag">Precision Irrigation Scheduling</div>
+</header>
+
+<main>
+
+<section class="card">
+  <h2>Field Configuration</h2>
+
+  <div class="grid">
+
+    <div class="field">
+      <label>Crop</label>
+      <select id="cropSel"></select>
+    </div>
+
+    <div class="field">
+      <label>Soil Type</label>
+      <select id="soilSel"></select>
+    </div>
+
+    <div class="field">
+      <label>Sowing Date</label>
+      <input type="date" id="startDate">
+    </div>
+
+    <div class="field">
+      <label>Field Size (m²)</label>
+      <input type="number" id="fieldSize" value="1000">
+    </div>
+
+    <div class="field">
+      <label>Avg Monthly Rain (mm)</label>
+      <input type="number" id="rainMm" value="30">
+    </div>
+
+  </div>
+
+  <button id="generateBtn">Generate Schedule</button>
+</section>
+
+<section id="summary" class="summary"></section>
+
+<section id="filters" class="filters"></section>
+
+<section class="card">
+  <h2>Irrigation Demand</h2>
+  <canvas id="chart"></canvas>
+</section>
+
+<section id="stages" class="stages"></section>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

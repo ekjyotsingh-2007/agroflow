@@ -1,0 +1,330 @@
+{
+  "crops": [
+    {
+      "crop": "Wheat",
+      "stages": [
+        {
+          "name": "Germination",
+          "days": 15,
+          "kc": 0.3
+        },
+        {
+          "name": "Vegetative",
+          "days": 40,
+          "kc": 0.7
+        },
+        {
+          "name": "Flowering",
+          "days": 25,
+          "kc": 1.15
+        },
+        {
+          "name": "Grain Fill",
+          "days": 30,
+          "kc": 0.5
+        }
+      ]
+    },
+    {
+      "crop": "Rice",
+      "stages": [
+        {
+          "name": "Nursery",
+          "days": 30,
+          "kc": 1.1
+        },
+        {
+          "name": "Transplanting",
+          "days": 15,
+          "kc": 1.1
+        },
+        {
+          "name": "Tillering",
+          "days": 30,
+          "kc": 1.1
+        },
+        {
+          "name": "Panicle",
+          "days": 25,
+          "kc": 1.2
+        },
+        {
+          "name": "Ripening",
+          "days": 30,
+          "kc": 0.75
+        }
+      ]
+    },
+    {
+      "crop": "Maize",
+      "stages": [
+        {
+          "name": "Emergence",
+          "days": 20,
+          "kc": 0.3
+        },
+        {
+          "name": "Vegetative",
+          "days": 30,
+          "kc": 0.7
+        },
+        {
+          "name": "Silking",
+          "days": 20,
+          "kc": 1.2
+        },
+        {
+          "name": "Grain Fill",
+          "days": 30,
+          "kc": 0.6
+        }
+      ]
+    },
+    {
+      "crop": "Cotton",
+      "stages": [
+        {
+          "name": "Germination",
+          "days": 30,
+          "kc": 0.35
+        },
+        {
+          "name": "Vegetative",
+          "days": 50,
+          "kc": 0.7
+        },
+        {
+          "name": "Flowering",
+          "days": 55,
+          "kc": 1.2
+        },
+        {
+          "name": "Boll Opening",
+          "days": 45,
+          "kc": 0.5
+        }
+      ]
+    },
+    {
+      "crop": "Sugarcane",
+      "stages": [
+        {
+          "name": "Germination",
+          "days": 35,
+          "kc": 0.4
+        },
+        {
+          "name": "Tillering",
+          "days": 70,
+          "kc": 0.8
+        },
+        {
+          "name": "Grand Growth",
+          "days": 180,
+          "kc": 1.25
+        },
+        {
+          "name": "Maturation",
+          "days": 60,
+          "kc": 0.75
+        }
+      ]
+    },
+    {
+      "crop": "Tomato",
+      "stages": [
+        {
+          "name": "Initial",
+          "days": 30,
+          "kc": 0.6
+        },
+        {
+          "name": "Development",
+          "days": 40,
+          "kc": 0.8
+        },
+        {
+          "name": "Mid Season",
+          "days": 45,
+          "kc": 1.15
+        },
+        {
+          "name": "Late Season",
+          "days": 25,
+          "kc": 0.7
+        }
+      ]
+    },
+    {
+      "crop": "Onion",
+      "stages": [
+        {
+          "name": "Initial",
+          "days": 20,
+          "kc": 0.7
+        },
+        {
+          "name": "Development",
+          "days": 35,
+          "kc": 0.8
+        },
+        {
+          "name": "Mid Season",
+          "days": 65,
+          "kc": 1.05
+        },
+        {
+          "name": "Late Season",
+          "days": 20,
+          "kc": 0.75
+        }
+      ]
+    },
+    {
+      "crop": "Potato",
+      "stages": [
+        {
+          "name": "Initial",
+          "days": 25,
+          "kc": 0.5
+        },
+        {
+          "name": "Development",
+          "days": 30,
+          "kc": 0.75
+        },
+        {
+          "name": "Mid Season",
+          "days": 45,
+          "kc": 1.15
+        },
+        {
+          "name": "Late Season",
+          "days": 30,
+          "kc": 0.75
+        }
+      ]
+    },
+    {
+      "crop": "Groundnut",
+      "stages": [
+        {
+          "name": "Initial",
+          "days": 25,
+          "kc": 0.4
+        },
+        {
+          "name": "Development",
+          "days": 35,
+          "kc": 0.75
+        },
+        {
+          "name": "Mid Season",
+          "days": 45,
+          "kc": 1.05
+        },
+        {
+          "name": "Late Season",
+          "days": 25,
+          "kc": 0.6
+        }
+      ]
+    },
+    {
+      "crop": "Soybean",
+      "stages": [
+        {
+          "name": "Initial",
+          "days": 20,
+          "kc": 0.4
+        },
+        {
+          "name": "Development",
+          "days": 25,
+          "kc": 0.8
+        },
+        {
+          "name": "Mid Season",
+          "days": 50,
+          "kc": 1.15
+        },
+        {
+          "name": "Late Season",
+          "days": 25,
+          "kc": 0.5
+        }
+      ]
+    },
+    {
+      "crop": "Sunflower",
+      "stages": [
+        {
+          "name": "Initial",
+          "days": 25,
+          "kc": 0.35
+        },
+        {
+          "name": "Development",
+          "days": 35,
+          "kc": 0.75
+        },
+        {
+          "name": "Mid Season",
+          "days": 45,
+          "kc": 1.1
+        },
+        {
+          "name": "Late Season",
+          "days": 25,
+          "kc": 0.35
+        }
+      ]
+    },
+    {
+      "crop": "Mustard",
+      "stages": [
+        {
+          "name": "Initial",
+          "days": 20,
+          "kc": 0.35
+        },
+        {
+          "name": "Development",
+          "days": 30,
+          "kc": 0.75
+        },
+        {
+          "name": "Mid Season",
+          "days": 40,
+          "kc": 1.05
+        },
+        {
+          "name": "Late Season",
+          "days": 20,
+          "kc": 0.4
+        }
+      ]
+    }
+  ],
+  "evapotranspiration_reference_mm_day": {
+    "Jan": 3.2,
+    "Feb": 3.8,
+    "Mar": 5.1,
+    "Apr": 6.8,
+    "May": 7.5,
+    "Jun": 6.2,
+    "Jul": 4.8,
+    "Aug": 4.5,
+    "Sep": 5.0,
+    "Oct": 4.8,
+    "Nov": 3.5,
+    "Dec": 3.0
+  },
+  "soil_et_modifier": {
+    "Sandy": 1.15,
+    "Loamy": 1.0,
+    "Clay": 0.85,
+    "Black Cotton": 0.9,
+    "Red Laterite": 1.05
+  }
+}
